@@ -14,6 +14,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await HiveDatabase.init();
   await di.init();
+
+  
   runApp(const MyApp());
 }
 
